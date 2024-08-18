@@ -7,7 +7,7 @@ public class Car {
 
     public static void main(String[] args) {
         Car car1 = new electricCar(1500);
-        Car car2 = new gasCar(50);
+        Car car2 = new gasCar(5000);
     }
 
 
