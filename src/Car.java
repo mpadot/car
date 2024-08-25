@@ -4,26 +4,60 @@
 
 
 public class Car {
+    private String color;
+    private Integer mielage;
 
-    public static void main(String[] args) {
-        Car car1 = new electricCar(1500);
-        Car car2 = new gasCar(5000);
+    public Car(Integer mielage, String color){
+        this.color = color;
+        this.mielage = mielage;
+    }
+    protected String getColor() {
+        return color;
+    }
+
+    protected Integer getMileage() {
+        return mielage;
+    }
+
+    public String toString() {
+        return "mileage of " + mielage + " mpg, the color of the car is " + color;
+
     }
 
 
 }
 
     class electricCar extends Car{
-        electricCar(Integer mielage){
-            System.out.println("Your Electric Car has " + mielage + " volts left on the battery");
-        }
+        public electricCar(Integer mielage, String color){
+            super(mielage,color);
+
+            }
+            public String toString(){
+                return "Your electric car has a voltage of " + super.getMileage() + " volts, and the color is " + super.getColor() ;
+
+            }
+
+
     }
 
 
     class gasCar extends Car{
 
-        gasCar(Integer mielage){
-            System.out.println("Your Gas Car has " + mielage + " miles left in the tank");
+        public gasCar(Integer mielage, String color){
+            super(mielage, color);
+        }
+        public String toString(){
+            return"Your gas car has a " + super.toString()  ;
+
         }
     }
 
+    class waterCar extends Car{
+
+        public waterCar(Integer mielage, String color){
+            super(mielage, color);
+        }
+        public String toString(){
+            return "Your water car has a " + super.toString();
+        }
+    }
