@@ -12,8 +12,16 @@ public class Car {
         this.color = color;
         this.mielage = mielage;
     }
+    protected String getColor() {
+        return color;
+    }
+
+    protected Integer getMileage() {
+        return mielage;
+    }
+
     public String toString() {
-        return "Mileage: " + mielage + " mpg, the color of the car is: " + color;
+        return "mileage of " + mielage + " mpg, the color of the car is: " + color;
     }
 
 
@@ -45,7 +53,7 @@ public class Car {
 
             }
             public String toString(){
-                return "Your Electric Car has a " + super.toString() ;
+                return "Your Electric Car has a voltage of " + super.getMileage() + " volts, and the color is " + super.getColor() ;
 
             }
 
@@ -59,7 +67,7 @@ public class Car {
             super(mielage, color);
         }
         public String toString(){
-            return"Your Water Car has a" + super.toString()  ;
+            return"Your gas car has a " + super.toString()  ;
 
         }
     }
@@ -70,7 +78,7 @@ public class Car {
             super(mielage, color);
         }
         public String toString(){
-            return "Your Water Car has a" + super.toString();
+            return "Your water has a " + super.toString();
         }
     }
 
