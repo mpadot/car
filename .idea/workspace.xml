@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93e5d28-0273-4dd4-844b-37075d788575" name="Changes" comment="added color, and created new list for cars">
+    <list default="true" id="c93e5d28-0273-4dd4-844b-37075d788575" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
     </list>
@@ -85,6 +85,7 @@
       <workItem from="1724461969276" duration="140000" />
       <workItem from="1724529353615" duration="9168000" />
       <workItem from="1724592579828" duration="1732000" />
+      <workItem from="1724597486992" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="pp">
       <option name="closed" value="true" />
@@ -134,7 +135,47 @@
       <option name="project" value="LOCAL" />
       <updated>1724550169213</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added getters for color and mielage jsut for the electric car to override the tostring method">
+      <option name="closed" value="true" />
+      <created>1724596072698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596072698</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added getters for color and mielage jsut for the electric car to override the tostring method">
+      <option name="closed" value="true" />
+      <created>1724596077433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596077433</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added getters for color and mielage jsut for the electric car to override the tostring method">
+      <option name="closed" value="true" />
+      <created>1724596239173</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596239173</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1724596348655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596348655</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1724596414142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596414142</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,12 +192,27 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pp" />
     <MESSAGE value="some xml changes, whatever" />
     <MESSAGE value="added color of cars, as well as created a list of cars" />
     <MESSAGE value="Merge pull request #1 from davepadot/patch-1&#10;&#10;Update Car.java - added waterCar" />
     <MESSAGE value="added color, and created new list for cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="added color, and created new list for cars" />
+    <MESSAGE value="fixed up some grammar stuff" />
+    <MESSAGE value="added getters for color and mielage jsut for the electric car to override the tostring method" />
+    <MESSAGE value="stuff" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>

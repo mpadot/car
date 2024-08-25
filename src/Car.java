@@ -21,19 +21,20 @@ public class Car {
     }
 
     public String toString() {
-        return "mileage of " + mielage + " mpg, the color of the car is: " + color;
+        return "mileage of " + mielage + " mpg, the color of the car is " + color;
+
     }
 
 
 
-    public static void main(String[] args) {
+    public static void carManager(){
 
         ArrayList<Car> list = new ArrayList<Car>();
         Car car1 = new electricCar(1500, "red");
         list.add(car1);
-        Car car2 = new gasCar(5000, "Blue");
+        Car car2 = new gasCar(5000, "blue");
         list.add(car2);
-        Car waterCar = new waterCar(10, "Green");
+        Car waterCar = new waterCar(10, "green");
         list.add(waterCar);
 
         for(int i = 0; i < list.size(); i++){
@@ -53,7 +54,7 @@ public class Car {
 
             }
             public String toString(){
-                return "Your Electric Car has a voltage of " + super.getMileage() + " volts, and the color is " + super.getColor() ;
+                return "Your electric car has a voltage of " + super.getMileage() + " volts, and the color is " + super.getColor() ;
 
             }
 
@@ -78,7 +79,7 @@ public class Car {
             super(mielage, color);
         }
         public String toString(){
-            return "Your water has a " + super.toString();
+            return "Your water car has a " + super.toString();
         }
     }
 
