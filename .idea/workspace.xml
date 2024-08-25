@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93e5d28-0273-4dd4-844b-37075d788575" name="Changes" comment="pp">
+    <list default="true" id="c93e5d28-0273-4dd4-844b-37075d788575" name="Changes" comment="Merge pull request #1 from davepadot/patch-1&#10;&#10;Update Car.java - added waterCar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mpadot&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mpadot/car.git&quot;,
+    &quot;accountId&quot;: &quot;bd370900-78bf-42a0-9890-6d2aa3d66b5d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -37,6 +50,10 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/miles/IdeaProjects/CarProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -46,8 +63,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -62,6 +79,11 @@
       <workItem from="1723325649612" duration="1846000" />
       <workItem from="1723840948370" duration="388000" />
       <workItem from="1723841350925" duration="656000" />
+      <workItem from="1724007584077" duration="1589000" />
+      <workItem from="1724009382010" duration="2009000" />
+      <workItem from="1724425072443" duration="2282000" />
+      <workItem from="1724461969276" duration="140000" />
+      <workItem from="1724529353615" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="pp">
       <option name="closed" value="true" />
@@ -87,14 +109,44 @@
       <option name="project" value="LOCAL" />
       <updated>1723841150925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some xml changes, whatever">
+      <option name="closed" value="true" />
+      <created>1724007954643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724007954643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge pull request #1 from davepadot/patch-1&#10;&#10;Update Car.java - added waterCar">
+      <option name="closed" value="true" />
+      <created>1724549901723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724549901723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pp" />
-    <option name="LAST_COMMIT_MESSAGE" value="pp" />
+    <MESSAGE value="some xml changes, whatever" />
+    <MESSAGE value="added color of cars, as well as created a list of cars" />
+    <MESSAGE value="Merge pull request #1 from davepadot/patch-1&#10;&#10;Update Car.java - added waterCar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #1 from davepadot/patch-1&#10;&#10;Update Car.java - added waterCar" />
   </component>
 </project>
